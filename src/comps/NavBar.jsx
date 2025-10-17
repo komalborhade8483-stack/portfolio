@@ -11,9 +11,9 @@ function Navbar() {
       </Link>
 
       <nav>
-        <Link className="nav_links">Home</Link>
-        <Link className="nav_links">About-Me</Link>
-        <Link className="nav_links">Projects</Link>
+        <Link to={urls.home} className="nav_links">Home</Link>
+        <Link to={urls.about_me} className="nav_links">About-Me</Link>
+        <Link to={urls.projects} className="nav_links">Projects</Link>
       </nav>
 
       <button className="resume_button">Resume</button>
