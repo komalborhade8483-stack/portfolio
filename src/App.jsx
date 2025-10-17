@@ -1,9 +1,7 @@
+import Navbar from "./comps/Navbar";
+
 function App() {
-  return (
-    <>
-      Hello World
-    </>
-  )
+  return <Navbar></Navbar>;
 }
 
-export default App
+export default App;
