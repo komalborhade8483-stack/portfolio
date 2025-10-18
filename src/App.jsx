@@ -6,15 +6,19 @@ import Aboutme from "./comps/Aboutme";
 import urls from "./url";
 
 function App() {
-  return <>
-    <Navbar></Navbar>
+  return (
+    <>
+      <Navbar></Navbar>
 
-    <Routes>
-      <Route path={urls.home} element={<Home></Home>}></Route>
-      <Route path={urls.about_me} element={<Aboutme></Aboutme>}></Route>
-      <Route path={urls.projects} element={<Projects></Projects>}></Route>
-    </Routes>
-  </>;
+      <div className="page_wrappers">
+        <Routes>
+          <Route path={urls.home} element={<Home></Home>}></Route>
+          <Route path={urls.about_me} element={<Aboutme></Aboutme>}></Route>
+          <Route path={urls.projects} element={<Projects></Projects>}></Route>
+        </Routes>
+      </div>
+    </>
+  );
 }
 
 export default App;

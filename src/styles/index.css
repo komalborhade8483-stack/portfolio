@@ -21,14 +21,15 @@
   box-sizing: border-box;
   font-size: 300;
   font-family: "poppins", "sans-serif";
+  background: rgb(0, 0, 0);
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  transition: 0.2s ease-in-out;  
 }
 
-a:hover {
-  color: black;
-  transform: translateY(-200px) !important;
+.page_wrappers{
+  min-height: calc(100vh - 5rem - 6rem);
 }
