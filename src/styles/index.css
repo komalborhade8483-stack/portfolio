@@ -27,9 +27,17 @@
 
 a {
   text-decoration: none;
-  transition: 0.2s ease-in-out;  
+  transition: 0.2s ease-in-out;
 }
 
-.page_wrappers{
-  min-height: calc(100vh - 5rem - 6rem);
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page_wrapper {
+  height: 100%;
+  flex: 1;
+  flex-grow: 1;
 }

@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home .intro{
+        font-weight: 300;
+        font-size: 2rem;
+}
+
+.home .name{
+        font-weight: 600;
+        font-size: 3rem;
+        color: orange;
+}
+
+.home .fly_links img{
+        width: 36px;
+}

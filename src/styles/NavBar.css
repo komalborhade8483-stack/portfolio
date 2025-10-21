@@ -1,11 +1,11 @@
 header {
   padding: 3rem 9rem;
+  height: 5rem;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 5rem;
 }
 
 header a .logo_img {
@@ -51,8 +51,6 @@ header .resume_button:hover {
     0 0 0 0 #fff,
     0 0 0 3px #1de9b6;
 }
-
-
 
 @keyframes flicker {
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
